@@ -1,0 +1,7 @@
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^diaztabar\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.diaztabar\.com$
+RewriteRule ^(.*)$ "https\:\/\/diaztabar\.com\/$1" [R=301,L]
