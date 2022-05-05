@@ -58,5 +58,5 @@ $(function () {
 //someDate.setDate(someDate.getDate() + numberOfDaysToAdd); 
 
 //Countdown with real date
-var someDate = new Date("Sep 15, 2021 23:59:59");
+var someDate = new Date("Sep 15, 2022 23:59:59");
 someDate.setDate(someDate.getDate()); 
